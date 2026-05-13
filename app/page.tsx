@@ -7,20 +7,19 @@ import ProjectDashboard from "./components/ProjectDashboard";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white overflow-hidden">
-
-      <Navbar />
-
-      <Hero />
-
-      <Products />
-
-      <UploadPanel />
-
-      <SettingsPanel />
-
-      <ProjectDashboard />
-
+    <main
+      style={{
+        background: "black",
+        color: "white",
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "3rem",
+        fontWeight: "bold",
+      }}
+    >
+      NovaForge 3D Labs
     </main>
   );
 }
